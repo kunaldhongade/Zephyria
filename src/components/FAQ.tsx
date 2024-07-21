@@ -13,33 +13,46 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free ChadcnUI template.",
+    question: "What is Zephyria Network?",
+    answer:
+      "Zephyria Network is an innovative blockchain platform designed to address the blockchain trilemma by providing scalable, secure, and decentralized solutions using technologies like zk-SNARKs and asynchronous BFT consensus.",
     value: "item-1",
   },
   {
-    question: "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+    question: "How does Zephyria Network ensure scalability?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "Zephyria Network employs cutting-edge technologies like zk-SNARKs and a highly efficient consensus mechanism to handle thousands of transactions per second, ensuring the network remains fast and scalable.",
     value: "item-2",
   },
   {
-    question:
-      "Lorem ipsum dolor sit amet  Consectetur natus dolores minus quibusdam?",
+    question: "What makes Zephyria Network secure?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis necessitatibus maxime quis ipsa vitae cumque quo?",
+      "Our network uses zero-knowledge proofs (zk-SNARKs) to enhance privacy and security, along with asynchronous Byzantine Fault Tolerance (BFT) to protect against malicious attacks and ensure the integrity of transactions.",
     value: "item-3",
   },
   {
-    question: "Lorem ipsum dolor sit amet, consectetur adipisicing elit?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "Is Zephyria Network compatible with Ethereum?",
+    answer:
+      "Yes, Zephyria Network is fully compatible with the Ethereum Virtual Machine (EVM), allowing developers to easily deploy existing Ethereum dApps and smart contracts on our platform.",
     value: "item-4",
   },
   {
-    question:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur natus?",
+    question: "How can I get involved with Zephyria Network?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "You can join our community by following us on social media, participating in our forums, or contributing to our project on GitHub. Stay tuned for updates and opportunities to get involved!",
+    value: "item-5",
+  },
+  {
+    question: "What are the key features of Zephyria Network?",
+    answer:
+      "Key features include zk-SNARKs for enhanced security and privacy, EVM compatibility, asynchronous BFT consensus for reliability, and robust scalability to handle high transaction volumes.",
+    value: "item-5",
+  },
+  {
+    question:
+      "Why should I choose Zephyria Network over other blockchain platforms?",
+    answer:
+      "Zephyria Network offers a unique combination of scalability, security, and decentralization, solving the blockchain trilemma and providing a future-proof platform for developers and users alike.",
     value: "item-5",
   },
 ];
@@ -70,7 +83,7 @@ export const FAQ = () => {
         Still have questions?{" "}
         <a
           rel="noreferrer noopener"
-          href="#"
+          href="mailto:0xZephyria@gmail.com"
           className="text-primary transition-all border-primary hover:border-b-2"
         >
           Contact us
