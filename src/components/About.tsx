@@ -1,4 +1,5 @@
-import pilot from "../assets/pilot.png";
+import pilot from "../assets/Zephyr_the_Griffin-removebg.png";
+// import pilot from "../assets/pilot.png";
 import { Statistics } from "./Statistics";
 
 export const About = () => {
@@ -19,7 +20,7 @@ export const About = () => {
                 </span>
                 Company
               </h2>
-              <p className="text-xl text-muted-foreground mt-4">
+              <p className="text-xl text-muted-foreground mt-4 text-justify">
                 Zephyria Network aims to revolutionize blockchain with scalable,
                 secure, and EVM-compatible solutions. We use advanced technology
                 to tackle current challenges, ensuring seamless integration and
