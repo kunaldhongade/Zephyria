@@ -20,17 +20,20 @@ export const HeroCards = () => {
       <Card className="absolute w-[340px] -top-[15px] drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader className="flex flex-row items-center gap-4 pb-2">
           <Avatar>
-            <AvatarImage alt="" src="https://github.com/shadcn.png" />
+            <AvatarImage
+              alt="EVM Logo"
+              src="https://cdn.icon-icons.com/icons2/3714/PNG/512/coin_cryptocurrency_crypto_ethereum_icon_230248.png"
+            />
             <AvatarFallback>SH</AvatarFallback>
           </Avatar>
 
           <div className="flex flex-col">
-            <CardTitle className="text-lg">John Doe React</CardTitle>
-            <CardDescription>@john_doe</CardDescription>
+            <CardTitle className="text-lg">EVM Compatibility</CardTitle>
+            <CardDescription>Ethereum Virtual Machine</CardDescription>
           </div>
         </CardHeader>
 
-        <CardContent>This landing page is awesome!</CardContent>
+        <CardContent> platform that is more scalable!</CardContent>
       </Card>
 
       {/* Team */}
@@ -44,19 +47,19 @@ export const HeroCards = () => {
                 ?.focus();
             }}
             alt="discord-logo"
-            className="absolute grayscale-[0%] -top-12  w-24 h-24 aspect-square object-cover"
+            className="absolute grayscale-[0%] -top-12  w-24 h-24 aspect-square object-cover cursor-pointer"
           />
 
-          <CardTitle className="text-center">Leo Miranda</CardTitle>
+          <CardTitle className="text-center">Join our Discord</CardTitle>
           <CardDescription className="font-normal text-primary">
-            Frontend Developer
+            Exclusive Community
           </CardDescription>
         </CardHeader>
 
         <CardContent className="text-center pb-2">
           <p>
-            I really enjoy transforming ideas into functional software that
-            exceeds expectations
+            Zephyria Network! Connect with like-minded individuals, stay
+            updated, and contribute to our mission of mass adoption.
           </p>
         </CardContent>
 
@@ -64,7 +67,7 @@ export const HeroCards = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="https://github.com/leoMirandaa"
+              href="https://github.com/0xZephyria"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",
@@ -76,7 +79,7 @@ export const HeroCards = () => {
             </a>
             <a
               rel="noreferrer noopener"
-              href="https://twitter.com/leo_mirand4"
+              href="https://twitter.com/0xZephyria"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",
@@ -97,7 +100,7 @@ export const HeroCards = () => {
 
             <a
               rel="noreferrer noopener"
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/company/zephyria/"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",
@@ -115,30 +118,37 @@ export const HeroCards = () => {
       <Card className="absolute top-[150px] left-[50px] w-72  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader>
           <CardTitle className="flex item-center justify-between">
-            Free
+            Solving
             <Badge variant="secondary" className="text-sm text-primary">
-              Most popular
+              Boom 🚀
             </Badge>
           </CardTitle>
           <div>
-            <span className="text-3xl font-bold">$0</span>
-            <span className="text-muted-foreground"> /month</span>
+            <span className="text-xl font-bold inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
+              Blockchain Trilemma
+            </span>
+            <span className="text-muted-foreground"> </span>
           </div>
 
           <CardDescription>
-            Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.
+            Zephyria Network's commitment to solving the blockchain trilemma!
           </CardDescription>
         </CardHeader>
 
         <CardContent>
-          <Button className="w-full">Start Free Trial</Button>
+          <a
+            href="https://aisel.aisnet.org/icis2023/blockchain/blockchain/5/"
+            target="_blank"
+          >
+            <Button className="w-full">Know More</Button>
+          </a>
         </CardContent>
 
         <hr className="w-4/5 m-auto mb-4" />
 
         <CardFooter className="flex">
           <div className="space-y-4">
-            {["4 Team member", "4 GB Storage", "Upto 6 pages"].map(
+            {["Scalability", "Security", "Decentralization"].map(
               (benefit: string) => (
                 <span key={benefit} className="flex">
                   <Check className="text-green-500" />{" "}
@@ -157,10 +167,9 @@ export const HeroCards = () => {
             <LightBulbIcon />
           </div>
           <div>
-            <CardTitle>Light & dark mode</CardTitle>
+            <CardTitle>ZK & zk-SNARKs</CardTitle>
             <CardDescription className="text-md mt-2">
-              Lorem ipsum dolor sit amet consect adipisicing elit. Consectetur
-              natusm.
+              ZK Succinct Non-Interactive Arguments of Knowledge.
             </CardDescription>
           </div>
         </CardHeader>

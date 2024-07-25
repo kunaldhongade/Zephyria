@@ -1,4 +1,11 @@
-import { Radar } from "lucide-react";
+import {
+  GlobeLock,
+  Network,
+  Radar,
+  Shapes,
+  Shield,
+  TrendingUp,
+} from "lucide-react";
 
 interface SponsorProps {
   icon: JSX.Element;
@@ -7,39 +14,36 @@ interface SponsorProps {
 
 const sponsors: SponsorProps[] = [
   {
-    icon: <Radar size={34} />,
-    name: "Sponsor 1",
+    icon: <Shield size={34} />,
+    name: "zk-SNARKs",
   },
   {
     icon: <Radar size={34} />,
-    name: "Sponsor 2",
+    name: "EVM Compatibility",
   },
   {
-    icon: <Radar size={34} />,
-    name: "Sponsor 3",
+    icon: <GlobeLock size={34} />,
+    name: "Async BFT",
   },
   {
-    icon: <Radar size={34} />,
-    name: "Sponsor 4",
+    icon: <TrendingUp size={34} />,
+    name: "Plonky3",
   },
   {
-    icon: <Radar size={34} />,
-    name: "Sponsor 5",
+    icon: <Network size={34} />,
+    name: "Verkle Trees",
   },
   {
-    icon: <Radar size={34} />,
-    name: "Sponsor 6",
+    icon: <Shapes size={34} />,
+    name: "Decentralized Governance",
   },
 ];
 
 export const Sponsors = () => {
   return (
-    <section
-      id="sponsors"
-      className="container pt-24 sm:py-32"
-    >
+    <section id="sponsors" className="container pt-24 sm:py-32">
       <h2 className="text-center text-md lg:text-xl font-bold mb-8 text-primary">
-        Investors and founders
+        Tech Backbone
       </h2>
 
       <div className="flex flex-wrap justify-center items-center gap-4 md:gap-8">
