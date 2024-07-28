@@ -1,4 +1,4 @@
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
+import { DiscordLogoIcon, GitHubLogoIcon } from "@radix-ui/react-icons";
 import { HeroCards } from "./HeroCards";
 import { Button, buttonVariants } from "./ui/button";
 
@@ -23,14 +23,17 @@ export const Hero = () => {
         </main>
 
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-          Innovative Blockchain Solutions for Scalable, Secure, and Seamless
-          Integration with zk-Proofs and Decentralization.
+          Succinct Blockchain Solution for Ultra Scalable, Secure and Seamless
+          Integration of zk-Proofs with Decentralization.
         </p>
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">
           {/* <a href="mailto:0xZephyria@gmail.com"> */}
-          <a href="https://discord.com/invite/MY9B7bDa" target="_blank">
-            <Button className="w-full md:w-1/3">Join Us</Button>
+          <a href="https://discord.gg/4uAw2W76Fz" target="_blank">
+            <Button className="w-full md:w-1/3">
+              Join Us
+              <DiscordLogoIcon className="ml-2 w-5 h-5" />
+            </Button>
           </a>
 
           <a
