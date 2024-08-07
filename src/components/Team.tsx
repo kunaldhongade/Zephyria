@@ -43,7 +43,7 @@ const teamList: TeamProps[] = [
   },
   {
     imageUrl:
-      "https://pbs.twimg.com/profile_images/1812402118856196097/I8nsmLLe_400x400.jpg",
+      "https://pbs.twimg.com/profile_images/1817150102093377536/HRS24kbw_400x400.jpg",
     name: "Kunal Dhongade",
     position: "Co-Founder & Developer",
     tagLine:
